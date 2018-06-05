@@ -13,6 +13,8 @@ module.exports = {
   outDir: 'dist',
   /** The base path for all projects assets (relative to the website root) */
   publicPath: '/',
+  /** The files public path of prodution in index.html */
+  prodPublicPath: '/task/',
   /** Whether to generate sourcemaps */
   sourcemaps: true,
   /** A hash map of keys that the compiler should treat as external to the project */
